@@ -11,7 +11,7 @@ function generator() {
         alert("Digits are not allowed")
     }
     else if (Crush == "") {
-        alert("Please Enter Your Name")
+        alert("Please Enter Your  Crush Name")
     }
     else if (Crush.length <= 2) {
         alert("Min Required Length is 3")
@@ -24,10 +24,7 @@ function generator() {
         Love = Math.floor(Love)
         document.getElementById('Love%').value = Love + "%"
     }
-
-
-
-
+    // Quotes
     if (Love >= 0 && Love <= 25) {
         document.getElementById('Quote').innerText = "Chances Kafi Kam Hain."
     }
