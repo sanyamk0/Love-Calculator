@@ -2,7 +2,7 @@ function generator() {
     var You = document.getElementById('You').value
     var Crush = document.getElementById('Crush').value
     if (You == "") {
-        alert("Please Enter Your Nmme")
+        alert("Please Enter Your Name")
     }
     else if (You.length <= 2) {
         alert("Min Required Length is 3")
