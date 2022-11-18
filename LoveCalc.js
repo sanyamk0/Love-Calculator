@@ -11,7 +11,7 @@ function generator() {
         alert("Digits are not allowed")
     }
     else if (Crush == "") {
-        alert("Please Enter Your Nmme")
+        alert("Please Enter Your Name")
     }
     else if (Crush.length <= 2) {
         alert("Min Required Length is 3")
